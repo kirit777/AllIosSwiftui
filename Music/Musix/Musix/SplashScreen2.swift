@@ -26,7 +26,10 @@ struct SplashScreen2: View {
                 Spacer()
                 
                 HStack {
-                    Image(systemName: "music.note")
+                    Image("iconMain")
+                        .resizable()//music.note
+                        .frame(width: 30,height: 30)
+                        .aspectRatio(contentMode: .fit)
                         .foregroundColor(.black)
                         .font(.system(size: 34))
                         .offset(x: isAnimationStarted ? 0 : -100)

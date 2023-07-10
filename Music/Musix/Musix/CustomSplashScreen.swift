@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CustomSplashScreen: View {
     
+    @State private var isAnimationStarted = false
+    
     @Binding var isSplash:Bool
     
     var body: some View {
@@ -27,12 +29,24 @@ struct CustomSplashScreen: View {
                 HStack{
                     Spacer()
                     HStack{
-                        Image(systemName: "music.note")
-                                    .foregroundColor(.black)
-                                    .font(.system(size: 16))
+                        Image("iconMain")
+                            .resizable()//music.note
+                            .frame(width: 25,height: 25)
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.black)
+                            .font(.system(size: 34))
+                            .offset(x: isAnimationStarted ? 0 : -100)
+                            .animation(.easeInOut(duration: 0.9))
                         Text("Musix").foregroundColor(.black)
                             .font(.system(size: 16))
                             .fontWeight(.semibold)
+                            .offset(x: isAnimationStarted ? 0 : -100)
+                            .animation(.easeInOut(duration: 0.9))
+                    }
+                    .onAppear {
+                        withAnimation {
+                            isAnimationStarted = true
+                        }
                     }
                     
                 }
@@ -44,26 +58,31 @@ struct CustomSplashScreen: View {
                                 .foregroundColor(.black)
                                 .font(.system(size: 16))
                                 .padding(.top , 40)
+                                .offset(y: isAnimationStarted ? 0 : 200)
                     Spacer()
                     Image(systemName: "music.mic")
                                 .foregroundColor(.black)
                                 .font(.system(size: 16))
                                 .padding(.bottom , 40)
+                                .offset(y: isAnimationStarted ? 0 : 50)
                     Spacer()
                     Image(systemName: "music.note.tv")
                                 .foregroundColor(.black)
                                 .font(.system(size: 16))
                                 .padding(.top , 40)
+                                .offset(y: isAnimationStarted ? 0 : 200)
                     Spacer()
                     Image(systemName: "music.note.house")
                                 .foregroundColor(.black)
                                 .font(.system(size: 16))
                                 .padding(.bottom , 40)
+                                .offset(y: isAnimationStarted ? 0 : 50)
                     Spacer()
                     Image(systemName: "music.note")
                                 .foregroundColor(.black)
                                 .font(.system(size: 16))
                                 .padding(.top , 40)
+                                .offset(y: isAnimationStarted ? 0 : 200)
                     
                 }.frame(height: 50)
                     .padding(.horizontal , 40)
@@ -76,6 +95,7 @@ struct CustomSplashScreen: View {
                         .frame(width: 300,  height: 250)
                         .aspectRatio(contentMode: .fit)
                         .padding(.top , 0)
+                        .offset(x: isAnimationStarted ? 0 : 200)
                 }
                 .frame(width: 200,height: 200)
                 .padding(.top , 80)
@@ -85,11 +105,13 @@ struct CustomSplashScreen: View {
                         Text("Listen to your").foregroundColor(.black)
                             .font(.system(size: 24))
                             .fontWeight(.regular)
+                            .offset(x: isAnimationStarted ? 0 : 200)
                         
                         Text("Favorite\nMusic").foregroundColor(.black)
                             .font(.system(size: 55))
                             .fontWeight(.semibold)
                             .padding(.top , 2)
+                            .offset(x: isAnimationStarted ? 0 : 200)
                     }
                     Spacer()
                 }
@@ -98,6 +120,7 @@ struct CustomSplashScreen: View {
                 
                 
                 UnlockButton(isSplash: $isSplash)
+                    .offset(y: isAnimationStarted ? 0 : 100)
                 
                 Spacer()
             }
