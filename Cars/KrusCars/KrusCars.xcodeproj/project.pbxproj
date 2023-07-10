@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AA238C42A595F25007B36A1 /* KrusCarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238C32A595F25007B36A1 /* KrusCarsApp.swift */; };
+		7AA238C62A595F25007B36A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238C52A595F25007B36A1 /* ContentView.swift */; };
+		7AA238C82A595F27007B36A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA238C72A595F27007B36A1 /* Assets.xcassets */; };
+		7AA238CB2A595F27007B36A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA238CA2A595F27007B36A1 /* Preview Assets.xcassets */; };
+		7AA238D32A595F52007B36A1 /* CustomSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238D22A595F51007B36A1 /* CustomSplashScreen.swift */; };
+		7AA238D52A595FAB007B36A1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238D42A595FAB007B36A1 /* Constant.swift */; };
+		7AA238D82A59659C007B36A1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238D72A59659C007B36A1 /* HomeScreen.swift */; };
+		7AA238DB2A596924007B36A1 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238DA2A596924007B36A1 /* CustomTabbar.swift */; };
+		7AA238E02A5969FB007B36A1 /* CartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238DF2A5969FB007B36A1 /* CartScreen.swift */; };
+		7AA238E22A596A06007B36A1 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238E12A596A06007B36A1 /* MapScreen.swift */; };
+		7AA238E42A596A11007B36A1 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238E32A596A11007B36A1 /* ProfileScreen.swift */; };
+		7AA238E72A596A26007B36A1 /* HomeFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238E62A596A26007B36A1 /* HomeFragment.swift */; };
+		7AA238E92A5984A7007B36A1 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA238E82A5984A7007B36A1 /* DetailScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AA238C02A595F25007B36A1 /* KrusCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrusCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA238C32A595F25007B36A1 /* KrusCarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrusCarsApp.swift; sourceTree = "<group>"; };
+		7AA238C52A595F25007B36A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AA238C72A595F27007B36A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA238CA2A595F27007B36A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AA238D22A595F51007B36A1 /* CustomSplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSplashScreen.swift; sourceTree = "<group>"; };
+		7AA238D42A595FAB007B36A1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7AA238D72A59659C007B36A1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		7AA238DA2A596924007B36A1 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		7AA238DF2A5969FB007B36A1 /* CartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreen.swift; sourceTree = "<group>"; };
+		7AA238E12A596A06007B36A1 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		7AA238E32A596A11007B36A1 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		7AA238E62A596A26007B36A1 /* HomeFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFragment.swift; sourceTree = "<group>"; };
+		7AA238E82A5984A7007B36A1 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA238BD2A595F25007B36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AA238B72A595F25007B36A1 = {
+			isa = PBXGroup;
+			children = (
+				7AA238C22A595F25007B36A1 /* KrusCars */,
+				7AA238C12A595F25007B36A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA238C12A595F25007B36A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238C02A595F25007B36A1 /* KrusCars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA238C22A595F25007B36A1 /* KrusCars */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238D92A59690E007B36A1 /* CustomTabbar */,
+				7AA238D62A59658A007B36A1 /* HomeScreen */,
+				7AA238D12A595F3A007B36A1 /* SplashScreen */,
+				7AA238C32A595F25007B36A1 /* KrusCarsApp.swift */,
+				7AA238C52A595F25007B36A1 /* ContentView.swift */,
+				7AA238C72A595F27007B36A1 /* Assets.xcassets */,
+				7AA238C92A595F27007B36A1 /* Preview Content */,
+				7AA238D42A595FAB007B36A1 /* Constant.swift */,
+			);
+			path = KrusCars;
+			sourceTree = "<group>";
+		};
+		7AA238C92A595F27007B36A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238CA2A595F27007B36A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AA238D12A595F3A007B36A1 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238D22A595F51007B36A1 /* CustomSplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		7AA238D62A59658A007B36A1 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238E52A596A18007B36A1 /* Home */,
+				7AA238DE2A5969E9007B36A1 /* Profile */,
+				7AA238DD2A5969E1007B36A1 /* Map */,
+				7AA238DC2A5969DB007B36A1 /* Cart */,
+				7AA238D72A59659C007B36A1 /* HomeScreen.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		7AA238D92A59690E007B36A1 /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238DA2A596924007B36A1 /* CustomTabbar.swift */,
+			);
+			path = CustomTabbar;
+			sourceTree = "<group>";
+		};
+		7AA238DC2A5969DB007B36A1 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238DF2A5969FB007B36A1 /* CartScreen.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		7AA238DD2A5969E1007B36A1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238E12A596A06007B36A1 /* MapScreen.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		7AA238DE2A5969E9007B36A1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238E32A596A11007B36A1 /* ProfileScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7AA238E52A596A18007B36A1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7AA238E62A596A26007B36A1 /* HomeFragment.swift */,
+				7AA238E82A5984A7007B36A1 /* DetailScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA238BF2A595F25007B36A1 /* KrusCars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA238CE2A595F27007B36A1 /* Build configuration list for PBXNativeTarget "KrusCars" */;
+			buildPhases = (
+				7AA238BC2A595F25007B36A1 /* Sources */,
+				7AA238BD2A595F25007B36A1 /* Frameworks */,
+				7AA238BE2A595F25007B36A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrusCars;
+			productName = KrusCars;
+			productReference = 7AA238C02A595F25007B36A1 /* KrusCars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA238B82A595F25007B36A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7AA238BF2A595F25007B36A1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AA238BB2A595F25007B36A1 /* Build configuration list for PBXProject "KrusCars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA238B72A595F25007B36A1;
+			productRefGroup = 7AA238C12A595F25007B36A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA238BF2A595F25007B36A1 /* KrusCars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA238BE2A595F25007B36A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA238CB2A595F27007B36A1 /* Preview Assets.xcassets in Resources */,
+				7AA238C82A595F27007B36A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA238BC2A595F25007B36A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA238E22A596A06007B36A1 /* MapScreen.swift in Sources */,
+				7AA238DB2A596924007B36A1 /* CustomTabbar.swift in Sources */,
+				7AA238C62A595F25007B36A1 /* ContentView.swift in Sources */,
+				7AA238D82A59659C007B36A1 /* HomeScreen.swift in Sources */,
+				7AA238E72A596A26007B36A1 /* HomeFragment.swift in Sources */,
+				7AA238E42A596A11007B36A1 /* ProfileScreen.swift in Sources */,
+				7AA238D32A595F52007B36A1 /* CustomSplashScreen.swift in Sources */,
+				7AA238E02A5969FB007B36A1 /* CartScreen.swift in Sources */,
+				7AA238C42A595F25007B36A1 /* KrusCarsApp.swift in Sources */,
+				7AA238E92A5984A7007B36A1 /* DetailScreen.swift in Sources */,
+				7AA238D52A595FAB007B36A1 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7AA238CC2A595F27007B36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AA238CD2A595F27007B36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA238CF2A595F27007B36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KrusCars/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubrain.KrusCars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA238D02A595F27007B36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KrusCars/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubrain.KrusCars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA238BB2A595F25007B36A1 /* Build configuration list for PBXProject "KrusCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA238CC2A595F27007B36A1 /* Debug */,
+				7AA238CD2A595F27007B36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA238CE2A595F27007B36A1 /* Build configuration list for PBXNativeTarget "KrusCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA238CF2A595F27007B36A1 /* Debug */,
+				7AA238D02A595F27007B36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA238B82A595F25007B36A1 /* Project object */;
+}

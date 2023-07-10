@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "car-png-16854.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
